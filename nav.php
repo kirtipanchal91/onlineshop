@@ -37,6 +37,7 @@
       <a style="margin-left:70px" href="home.php">Home</a>
       <a style="margin-left:70px" href="about.php">About</a>
       <a style="margin-left:70px" href="#about">Setting</a>
+      <a style="margin-left:70px" href="#about">Setting</a>
       <a style="margin-left:70px" href="profile.php">profile</a>
       <a href="logout.php">
         
