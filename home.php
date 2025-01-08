@@ -12,19 +12,20 @@
       </style>
 
 </head>
-
+<?php include "nav.php"?>
   <?php 
 
            session_start();
 
 
+           echo $_SESSION['username'];  
           if($_SESSION["alertreset"])
            echo '<script type="text/javascript">alert("password updated") </script>';
 
           $_SESSION["alertreset"]=0;
            
   ?>
- <?php include "nav.php"?>
+ 
  
 <div class="kirti">
 

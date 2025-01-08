@@ -45,7 +45,8 @@ if($atcheck and $dotcheck)
     }
 }
 else    
-{echo '<script type="text/javascript">alert("password not updated") </script>';
+{
+    echo '<script type="text/javascript">alert("password not updated") </script>';
 header("location: reset.php"); 
 }
 

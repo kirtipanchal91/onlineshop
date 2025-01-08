@@ -27,10 +27,15 @@ if($initial > 0){
     session_start();
     $_SESSION['username']=$username;
     $_SESSION['logincheck']=1;
-    
     $_SESSION['email']=$email;
     $_SESSION['password']=$password;
-    header("location:home.php");
+    echo $_SESSION['username'];
+    echo $_SESSION['email'];
+    echo $_SESSION['password'];
+    echo $_SESSION['logincheck'];
+    
+
+   header("location:home.php");
 }
 else{
     echo '<script type="text/javascript">alert("password does not match") </script>';

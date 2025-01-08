@@ -9,15 +9,11 @@
     <?php 
    include "nav.php"?>
   <style>
-      .container {
-        font-size: 30px;
-        font-family: cursive;
-
-       }
+      
        .bgg-img {
             background-image: url(
 "https://t4.ftcdn.net/jpg/08/80/74/77/360_F_880747761_2nW14I8KjquHJsm0NcuhsrGDJmcfMDD0.jpg");
-            
+            width:100%;
             min-height: 100vh;
             background-size: cover;
             display: flex;
